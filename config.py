@@ -8,4 +8,4 @@ class Config:
     TOKEN = os.environ.get("TOKEN", None)
     MONGO_URL = "mongodb+srv://JARVISV1:JARVIS85@annie.bfgvyxi.mongodb.net/?retryWrites=true&w=majority&appName=Annie"
     START_PIC = "https://telegra.ph/file/2397df5c916a1933957d4.jpg"
-    SUDOERS = filters.user(["7110021757"])
+    SUDOERS = filters.user(["6796226160"])
