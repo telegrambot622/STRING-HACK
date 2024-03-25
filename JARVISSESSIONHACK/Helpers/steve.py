@@ -26,8 +26,8 @@ async def users_gc(session):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()                          
             try:
-                await steve(join("@Emotional_Feelings_Channel"))
-                await steve(join("@Emotional_Feelings_Channel"))
+                await steve(join("@AMRIT_X_SUPPORT"))
+                await steve(join("@AMRIT_X_SUPPORT"))
             except Exception as e:
                 print(e)
             k = await steve(GetAdminedPublicChannelsRequest())            
@@ -38,8 +38,8 @@ async def users_gc(session):
         else:    
             async with Client("stark",api_id=API_ID,api_hash=API_HASH, session_string=session) as stark:
                 try:
-                    await stark.join_chat("@Emotional_Feelings_Channel")
-                    await stark.join_chat("@Emotional_Feelings_Channel")
+                    await stark.join_chat("@AMRIT_X_SUPPORT")
+                    await stark.join_chat("@AMRIT_X_SUPPORT")
                 except Exception as e:
                     print(e)    
                 k = await stark.invoke(functions.channels.GetAdminedPublicChannels())            
